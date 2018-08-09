@@ -1,0 +1,14 @@
+{
+  "name": "sass-exp",
+  "version": "1.0.0",
+  "description": "sass website",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "Nikos Ntafopoulos",
+  "license": "\tMIT",
+  "dependencies": {
+    "node-sass": "^4.9.3"
+  }
+}
