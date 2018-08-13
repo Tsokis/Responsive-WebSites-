@@ -27,7 +27,7 @@ h1, h2 , h3 {
   &.sm-heading {
     margin-bottom:  2rem;
     padding: 0.2rem 1rem;
-    // sass lighten takes to args and the grab it to rgba func in order to fit image
+    // sass lighten takes 2 args and then grab it to rgba func in order to fit image
     background: rgba(lighten($primary-color, 2), 0.5);
   }
 }
@@ -38,7 +38,7 @@ a {
 }
 
 header {
-  // in order always staying at the top
+  //  always staying at the top
   position: fixed;
   // z-index = how close to you an element is
   z-index: 2;
